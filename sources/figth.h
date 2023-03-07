@@ -7,14 +7,6 @@
 // Боевка
 // Перемещение
 
-struct Player {
-	int x;
-	int y;
-	int hp;
-	int default_attack;
-	Item* item_weapon;
-};
-
 struct Enemy {
 	int x;
 	int y;
